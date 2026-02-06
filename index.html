@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gastos Mensais</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Calculadora de Gastos Mensais</h1>
+
+    <div class="campo">
+        <label>Aluguel</label>
+        <input type="number" id="aluguel" placeholder="R$">
+    </div>
+
+    <div class="campo">
+        <label>Água</label>
+        <input type="number" id="agua" placeholder="R$">
+    </div>
+
+    <div class="campo">
+        <label>Luz</label>
+        <input type="number" id="luz" placeholder="R$">
+    </div>
+
+    <div class="campo">
+        <label>Internet</label>
+        <input type="number" id="internet" placeholder="R$">
+    </div>
+
+    <div class="campo">
+        <label>Outros</label>
+        <input type="number" id="outros" placeholder="R$">
+    </div>
+
+    <button onclick="calcularGastos()">Calcular</button>
+
+    <p id="resultado"></p>
+</div>
+
+<script src="dist/js/script.min.js"></script>
+</body>
+</html>

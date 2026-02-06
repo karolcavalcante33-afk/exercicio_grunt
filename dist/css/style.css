@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+}
+.container {
+  width: 320px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c7be5;
+}
+.container .campo {
+  margin-bottom: 12px;
+}
+.container .campo label {
+  display: block;
+  margin-bottom: 4px;
+}
+.container .campo input {
+  width: 100%;
+  padding: 8px;
+}
+.container button {
+  width: 100%;
+  padding: 10px;
+  background: #2c7be5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.container #resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.container .alerta {
+  color: #e5533d;
+}
+.container .ok {
+  color: #2ecc71;
+}
